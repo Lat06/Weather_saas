@@ -3,8 +3,8 @@ import json
 import requests
 from flask import Flask, jsonify, request
 
-API_TOKEN = "my_token02"
-WEATHER_API_KEY = "EEAP442CAUU7GPVHCW386GXXS"
+API_TOKEN = ""
+WEATHER_API_KEY = ""
 BASE_URL = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline"
 
 app = Flask(__name__)
